@@ -1,8 +1,12 @@
+import { useState } from 'react'
 import './Hero.scss'
 
 const Hero = () => {
+
+    
+
     return (
-        <div className="hero">
+        <div className="hero" >
             <div className="hero-main">
                 <h1>Продажа и доставка нерудных материалов</h1>
                 <p>У нас вы можете заказать материалы премиального качества.

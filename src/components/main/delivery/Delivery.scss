@@ -1,0 +1,108 @@
+.delivery {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    .info-part {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .center-container {
+            width: 579px;
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            gap: 35px;
+
+            .text-part {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                h1 {
+                    font-size: 38px;
+                    font-weight: 500;
+                }
+            }
+
+            .condition {
+                display: flex;
+                gap: 15px;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .info-section {
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+
+            .location {
+                width: 300px;
+                height: 100px;
+                background-color: #F8F8F8;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                p{
+                    font-size: 14px;
+                }
+            }
+
+            .num {
+                @extend .location
+            }
+        }
+    }
+
+    .map-part {
+        width: 50%;
+        height: 100vh;
+        background-image: url(/public/images/main/Rectangle\ 701.png);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        .zone-delivery {
+            width: 130px;
+            height: 40px;
+            background-color: #27AE60;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+
+            h4 {
+                font-size: 13px;
+                font-weight: 500;
+                color: white;
+            }
+        }
+
+
+        .map {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 600px;
+            }
+        }
+    }
+
+}
