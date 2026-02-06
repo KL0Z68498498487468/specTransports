@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from '../../components/header/Navbar/Navbar'
-import Materialsp from '../../components/main/materialspage/Materialsp'
+import Materialsp from '../../components/Materials/materialspage/Materialsp'
 
 function Materialsprice() {
   return (
     <div className="materials">
-        <Navbar/>
         <Materialsp/>
     </div>
   )

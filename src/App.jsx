@@ -1,8 +1,8 @@
 import './App.scss'
-import Navbar from './components/header/Navbar/Navbar'
 import Materialsprice from './pages/materials/Materialsprice'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
+import Navbar from './components/Base/Navbar/Navbar'
 
 
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-      <Navbar/>
+        <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/materials' element={<Materialsprice/>}/>
